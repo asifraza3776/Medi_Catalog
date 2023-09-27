@@ -66,91 +66,112 @@
       </div>
     </div>
 
-    <!-- Products Section -->
-
-    <div>
-      <div class="flex items-center justify-between p-4 mt-20">
-        <!-- Left Side: Logo -->
-        <div class="flex items-center max-w-full">
-          <img
-            src="./img/Slice 2.png"
-            alt="Company Logo"
-            class="h-full w-full"
-          />
-          <!-- <h1 class="text-2xl font-semibold ml-2">Your Website</h1> -->
-        </div>
-
-        <!-- Right Side: Dot Design Image -->
-        <img src="./img/dot2.png" alt="Dot Design" class="h-15 w-10" />
+    <!-- Parent-->
+    <div class="w-full flex flex-col relative h-[297mm] mb-16">
+      <!-- Image Section (75%) -->
+      <div class="w-full relative flex items-center justify-center">
+        <img
+          src="./img/wheelchair.jpeg"
+          alt="Wheelchair Image"
+          class="max-w-full max-h-[75%] object-cover"
+        />
       </div>
 
+      <!-- Text Section (25%) -->
+      <div
+        class="absolute w-1/2 text-center bg-orange-500 p-8 text-black rounded-r-3xl"
+      >
+        <h1 class="text-3xl font-semibold">Wheelchair</h1>
+      </div>
+    </div>
+
+    <!--Parent->Child_1-->
+    <div class="w-full flex flex-col relative h-[297mm] mb-16">
+      <!-- Image Section (75%) -->
+      <div class="w-full relative flex items-center justify-center">
+        <img
+          src="./img/wheelchair1.jpeg"
+          alt="Bed Image"
+          class="max-w-full max-h-[75%] object-cover"
+        />
+      </div>
+
+      <!-- Text Section (25%) -->
+      <div
+        class="absolute w-1/2 text-center bg-blue-950 p-8 text-white rounded-r-3xl"
+      >
+        <h1 class="text-3xl font-semibold">Manual Wheelchair</h1>
+      </div>
+    </div>
+
+    <!--Parent->Child->Child_1(UltraLight)-->
+    <div>
+      <div class="w-full flex flex-col relative h-[297mm] mt-16">
+        <!-- Image Section (75%) -->
+        <div class="w-full relative flex items-center justify-center">
+          <img
+            src="./img/wheelchair4.jpeg"
+            alt="UltraLight Image"
+            class="max-w-full max-h-[75%] object-cover"
+          />
+        </div>
+
+        <!-- Text Section (25%) -->
+        <div
+          class="absolute w-1/2 text-center bg-blue-400 p-8 text-white rounded-r-3xl"
+        >
+          <h1 class="text-3xl font-semibold">UltraLight Wheelchair</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--Parent->Product_detail-->
+    <div>
       <div>
-        <h1>
-          <span class="bg-orange-500 text-black text-2xl p-2 rounded-r-3xl"
-            >CRAPE BANDAGE</span
-          >
+        <h1 class="bg-orange-600 text-center p-8 font-poppins font-semibold text-3xl">
+          Product List
         </h1>
       </div>
 
-      <!-- //Product Details -->
       <div class="container mx-auto flex items-center">
         <!-- Product Image on the left -->
-        <div class="w-1/2">
+        <div class="w-1/2 pr-8">
           <img
-            src="./img/Bandageimg.png"
+            src="./img/wheelchair4.jpeg"
             alt="Product Image"
-            class="w-full h-auto"
+            class="w-full h-auto max-h-[297mm] object-contain"
           />
         </div>
 
         <!-- Product Title on the right -->
-        <div class="w-1/2 mt-4">
-          <div class="">
+        <div class="w-1/2 mt-4 pl-8">
+          <div>
             <hr class="border-t border-gray-300 mt-6 mb-4" />
-            <h2 class="text-3xl font-semibold">
-              Hansaplast Soft Cotton Pain Relief Crepe Bandage Pack of 1 (10CMx
-              4MTR)
-            </h2>
+            <h2 class="text-3xl font-semibold">UltraLight WheelChair</h2>
             <div>
-              <h1 class="text-4xl text-orange-500 mt-5">$18.95</h1>
+              <h1 class="text-4xl text-orange-500 mt-5">$143.95</h1>
             </div>
 
             <hr class="border-t border-gray-300 mt-6 mb-4" />
 
             <div>
-              <table class="absolute text-5xl text-Black mt-5">
+              <table class="text-5xl text-black mt-5">
                 <tr>
                   <td class="border border-black p-2 font-bold text-2xl">
                     Product Name
                   </td>
-                  <td class="border border-black p-2 text-lg">Crape Bandage</td>
+                  <td class="border border-black p-2 text-lg">UltraLight WheelChair</td>
                 </tr>
                 <tr>
-                  <td class="border border-black p-2 font-bold text-2xl">SKU</td>
+                  <td class="border border-black p-2 font-bold text-2xl">
+                    SKU
+                  </td>
                   <td class="border border-black p-2 text-lg">HA33200000-MI</td>
                 </tr>
               </table>
             </div>
           </div>
-          <!-- <p class="text-gray-600">
-            <span class="font-bold">SKU:</span>HA33200000-MI
-            <span class="font-bold">BRAND:</span>Hartmann
-            <span class="font-bold">MPN/Model:</span>33200000
-          </p> -->
-          <!-- Prize -->
-
-          
         </div>
-      </div>
-
-      <!-- //prize and sku -->
-      <div class="relative">
-        <!-- Image -->
-        <img
-          src="./img/bg-4.png"
-          alt="Catalog Image"
-          class="w-full h-full mt-auto relative"
-        />
       </div>
     </div>
   </body>
